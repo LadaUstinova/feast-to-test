@@ -1,0 +1,15 @@
+project: in_bug
+# registry: s3://feast-to-test/registry/registry.db
+registry: s3://rnd-feast/registry.db
+provider: local
+offline_store:
+    type: feast_postgres.PostgreSQLOfflineStore # MUST be this value
+    host: 3.82.171.143
+    port: 5432              # Optional, default it 5432
+    database: postgres
+    db_schema: public
+    user: postgres
+    password: mysecretpassword
+online_store:
+  type: redis
+  connection_string: "3.82.171.143:6379"
