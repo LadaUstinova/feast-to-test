@@ -23,6 +23,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run script
         run: |
+          cd in_bug
           feast apply
           echo "Script run successful"
 
