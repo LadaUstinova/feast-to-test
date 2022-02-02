@@ -5,8 +5,8 @@ import sqlalchemy
 
 from feast_postgres import PostgreSQLOfflineStoreConfig
 
-df = pd.read_parquet("./in_bug/data/driver_stats.parquet")
-with open("./in_bug/feature_store.yaml", "r") as stream:
+df = pd.read_parquet("./data/driver_stats.parquet")
+with open("./feature_store.yaml", "r") as stream:
     try:
         config = yaml.safe_load(stream)
     except yaml.YAMLError as exc:
