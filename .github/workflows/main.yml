@@ -9,4 +9,4 @@ jobs:
         uses: actions/checkout@v2
       - run: feast apply
       - run: echo "This job's status is ${{ job.status }}."
-
+ 
