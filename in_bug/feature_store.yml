@@ -1,4 +1,4 @@
-project: data
+project: in_bug
 # registry: s3://feast-to-test/registry/registry.db
 #s3://rnd-feast/registry.db
 registry: data/registry.db
