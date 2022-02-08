@@ -1,7 +1,7 @@
 project: in_bug
-#  registry: s3://feast-to-test/registry/registry.db
+registry: s3://feast-to-test/registry/registry.db
 #s3://rnd-feast/registry.db
-registry: data/registry.db
+#registry: data/registry.db
 provider: local
 offline_store:
     type: feast_postgres.PostgreSQLOfflineStore # MUST be this value
