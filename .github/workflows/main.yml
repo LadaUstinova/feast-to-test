@@ -15,5 +15,3 @@ jobs:
           export AWS_DEFAULT_REGION=ru-central1
           feast apply
       - run: echo "This job's status is ${{ job.status }}."
-   
- 
