@@ -13,4 +13,4 @@ offline_store:
     password: mysecretpassword
 online_store:
   type: redis
-  connection_string: "84.252.138.121:6379"
+  connection_string: "84.252.138.121:6379" 
