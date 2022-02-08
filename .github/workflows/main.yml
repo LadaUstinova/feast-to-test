@@ -2,7 +2,7 @@ name: Applying features
 on: [push]
 jobs:
   Feast-apply:
-    runs-on: self-hosted
+    runs-on: self-hosted 
     steps:
       - run: echo "Start applying features into Feast"
       - name: Check out repository code
