@@ -5,7 +5,7 @@ features = [
     "driver_hourly_stats:acc_rate"
 ]
 
-fs = FeatureStore(repo_path="in_bug/")
+fs = FeatureStore(repo_path=".")
 online_features = fs.get_online_features(
     features=features,
     entity_rows=[
