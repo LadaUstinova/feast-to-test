@@ -1,4 +1,4 @@
-project: feast-to-test
+project: in_bug
 registry: s3://rnd-feast/registry.db
 #registry: data/registry.db
 provider: local
