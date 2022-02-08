@@ -6,7 +6,7 @@ jobs:
     steps:
       - run: echo "Start applying features into Feast"
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2 
       - run: feast apply
       - run: echo "This job's status is ${{ job.status }}."
  
