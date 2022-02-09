@@ -6,4 +6,6 @@ project_helper.txt
 
 read_from_online.py
 
+read_from_offline.py
+
 requirements.txt
