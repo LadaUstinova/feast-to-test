@@ -28,8 +28,7 @@ driver_hourly_stats_view = FeatureView(
     ttl=Duration(seconds=86400 * 1),
     features=[
         Feature(name="conv_rate", dtype=ValueType.FLOAT),
-        Feature(name="acc_rate", dtype=ValueType.FLOAT),
-        Feature(name="avg_daily_trips", dtype=ValueType.INT64)
+        Feature(name="acc_rate", dtype=ValueType.FLOAT)
     ],
     online=True,
     batch_source=driver_hourly_stats,
