@@ -14,5 +14,4 @@ jobs:
           export FEAST_S3_ENDPOINT_URL=https://storage.yandexcloud.net
           export AWS_DEFAULT_REGION=ru-central1
           feast apply
-          feast materialize 2020-01-01T00:00:00 2022-01-01T00:00:00
       - run: echo "This job's status is ${{ job.status }}." 
